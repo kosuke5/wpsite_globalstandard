@@ -21,7 +21,7 @@
 ## Docker Compose
 ファイル「docker-compose.yml」が存在するディレクトリ上で以下のコードを実行
 ```
-$ docker compose up --build up
+$ docker compose up --build -d
 ```
 
 ## サイトへのアクセス
