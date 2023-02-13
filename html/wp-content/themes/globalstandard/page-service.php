@@ -164,8 +164,8 @@ get_header();
   <ul class="qa-list">
   <?php foreach($group as $fields): ?>
   <li class="qa-item">
-    <h3 class="qa-question"><?php echo $fields["QandA-question"]; ?></h3>
-    <p class="qa-ansewr"><?php echo $fields["QandA-answer"]; ?></p>
+    <h3 class="qa-question"><?php echo $fields["question"]; ?></h3>
+    <p class="qa-ansewr"><?php echo $fields["answer"]; ?></p>
   </li>
   <?php endforeach; ?>
   </ul>
